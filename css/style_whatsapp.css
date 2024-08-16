@@ -4,12 +4,12 @@ body {
 }
 .container {
     width: 450px;
-    height: 90vh;
+    height: 850px;
     margin: 30px auto;
     background-color: #ffffff;
     border: 5px solid #fff;
     border-radius: 20px;
-    overflow: scroll;
+    /* overflow-x: none; */
 }
 
 .header {
@@ -92,6 +92,12 @@ body {
 .menu__contador--estados {
     width: 10px;
     height: 10px;
+}
+
+
+.principal {
+    overflow-y: scroll;
+    height: 700px;
 }
 
 .chat {
