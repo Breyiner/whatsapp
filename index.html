@@ -18,366 +18,357 @@
                     <span class="material-symbols-outlined">more_vert</span>
                 </div>
             </div>
-            
-            <nav class="header__menu menu">
-
-                <input type="radio" name="opciones" id="chats" checked class="menu__radio">
-                <input type="radio" name="opciones" id="estados" class="menu__radio">
-                <input type="radio" name="opciones" id="llamadas" class="menu__radio">
-                
-                <div class="menu__barra">
-                    <!-- <a href="#" class="menu__opcion menu__opcion--activo">CHATS 
-                        <span class="menu__contador menu__contador--activo">7</span>
-                    </a>
-                    <a href="#" class="menu__opcion">ESTADOS
-                        <span class="menu__contador menu__contador--estados"></span>
-                    </a>
-                    <a href="#" class="menu__opcion">LLAMADAS
-                        <span class="menu__contador">14</span>
-                    </a> -->
-                    <label for="chats" class="menu__opcion">CHATS</label>
-                    <label for="estados" class="menu__opcion">ESTADOS</label>
-                    <label for="llamadas" class="menu__opcion">LLAMADAS</label>
-                </div>
-                
-            </nav>
         </header>
-
-        <main class="principal">
-            <div class="chats">
-                <div class="chats__globo-flotante globo-flotante">
-                    <span class="material-symbols-outlined globo-flotante__icono">chat</span>
-                </div>
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-grupo.jpg" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Los pros</p>
-                            <p class="chat__mensaje">youni: holiii</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora chat__hora--msg-reciente">17:49</p>
-                            <span class="chat__contador">2</span>
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
-    
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-payaro.webp" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Pájaro</p>
-                            <p class="chat__mensaje">Extraño a fernanda :(</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora">17:30</p>
-                            <!-- <span class="chat__contador">2</span> -->
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
-    
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-motomoto.jfif" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Moto Moto</p>
-                            <p class="chat__mensaje">Oye brogggg</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora chat__hora--msg-reciente">16:17</p>
-                            <span class="chat__contador">1</span>
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
-    
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-yari.jpg" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Yari</p>
-                            <p class="chat__mensaje">Amo los gatos :)</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora chat__hora--msg-reciente">15:49</p>
-                            <span class="chat__contador">1</span>
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
+        <main class="interfaz">
+            <input type="radio" name="opciones" id="chats" checked class="interfaz__radio">
+            <input type="radio" name="opciones" id="estados" class="interfaz__radio">
+            <input type="radio" name="opciones" id="llamadas" class="interfaz__radio">
                 
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-polopolo.webp" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Polo Polo</p>
-                            <p class="chat__mensaje">lk, como centro un div jksjhegags</p>
-                        </div>
-                
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora chat__hora--msg-reciente">9:49</p>
-                            <span class="chat__contador">2</span>
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
-
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-yeyo.jfif" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Jefferson</p>
-                            <p class="chat__mensaje">solo warzone</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora chat__hora--msg-reciente">Ayer</p>
-                            <span class="chat__contador">1</span>
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
-    
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-youni.jfif" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">youni</p>
-                            <p class="chat__mensaje">mano</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora">Ayer</p>
-                            <!-- <span class="chat__contador">2</span> -->
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
-    
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-brayan.webp" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Brayan</p>
-                            <p class="chat__mensaje">me fuí y no hice aseo</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora chat__hora--msg-reciente">9:49</p>
-                            <span class="chat__contador">2</span>
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
-    
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-rojelio.jfif" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Rojelio</p>
-                            <p class="chat__mensaje">me gusta youni</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora">Ayer</p>
-                            <!-- <span class="chat__contador">2</span> -->
-                        </div>
-                        <!-- <hr class="chat__separador"> -->
-                    </div>
-                </div>
-    
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-manuel.jfif" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Manuel</p>
-                            <p class="chat__mensaje">Solo bucaros</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora chat__hora--msg-reciente">Anteayer</p>
-                            <span class="chat__contador">2</span>
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
-    
-                <div class="chats__chat chat">
-                    <img src="imagenes/foto_chat-victor.jfif" alt="foto de perfil" class="chat__foto">
-                    <div class="chat__contenido">
-                        <div class="chat__informacion">
-                            <p class="chat__titulo">Victor</p>
-                            <p class="chat__mensaje">lk estoy bajando de peso</p>
-                        </div>
-    
-                        <div class="chat__informacion-extra">
-                            <p class="chat__hora">13/08/2024</p>
-                            <!-- <span class="chat__contador">1</span> -->
-                        </div>
-                        <!-- <hr> -->
-                    </div>
-                </div>
+            <div class="interfaz__barra menu">
+                <label for="chats" class="menu__opcion">CHATS</label>
+                <label for="estados" class="menu__opcion">ESTADOS</label>
+                <label for="llamadas" class="menu__opcion">LLAMADAS</label>
             </div>
 
-            <div class="estados">
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_propia.jfif" alt="img estado" class="estado__foto">
-                    <span class="estado__agregar">+</span>
-                    <div class="estado__contenido">
-                        <span class="estado__titulo">Mi estado</span>
-                        <span class="estado__texto">Añadir a mis estados</span>
+            <div class="interfaz__principal principal">
+                <div class="contenedor-chats">
+                    <div class="contenedor-chats__chats chats">
+                        <div class="chats__globo-flotante globo-flotante">
+                            <span class="material-symbols-outlined globo-flotante__icono">chat</span>
+                        </div>
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-grupo.jpg" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Los pros</p>
+                                    <p class="chat__mensaje">youni: holiii</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora chat__hora--msg-reciente">17:49</p>
+                                    <span class="chat__contador">2</span>
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+            
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-payaro.webp" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Pájaro</p>
+                                    <p class="chat__mensaje">Extraño a fernanda :(</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora">17:30</p>
+                                    <!-- <span class="chat__contador">2</span> -->
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+            
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-motomoto.jfif" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Moto Moto</p>
+                                    <p class="chat__mensaje">Oye brogggg</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora chat__hora--msg-reciente">16:17</p>
+                                    <span class="chat__contador">1</span>
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+            
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-yari.jpg" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Yari</p>
+                                    <p class="chat__mensaje">Amo los gatos :)</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora chat__hora--msg-reciente">15:49</p>
+                                    <span class="chat__contador">1</span>
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+                        
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-polopolo.webp" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Polo Polo</p>
+                                    <p class="chat__mensaje">lk, como centro un div jksjhegags</p>
+                                </div>
+                        
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora chat__hora--msg-reciente">9:49</p>
+                                    <span class="chat__contador">2</span>
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+        
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-yeyo.jfif" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Jefferson</p>
+                                    <p class="chat__mensaje">solo warzone</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora chat__hora--msg-reciente">Ayer</p>
+                                    <span class="chat__contador">1</span>
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+            
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-youni.jfif" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">youni</p>
+                                    <p class="chat__mensaje">mano</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora">Ayer</p>
+                                    <!-- <span class="chat__contador">2</span> -->
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+            
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-brayan.webp" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Brayan</p>
+                                    <p class="chat__mensaje">me fuí y no hice aseo</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora chat__hora--msg-reciente">9:49</p>
+                                    <span class="chat__contador">2</span>
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+            
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-rojelio.jfif" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Rojelio</p>
+                                    <p class="chat__mensaje">me gusta youni</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora">Ayer</p>
+                                    <!-- <span class="chat__contador">2</span> -->
+                                </div>
+                                <!-- <hr class="chat__separador"> -->
+                            </div>
+                        </div>
+            
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-manuel.jfif" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Manuel</p>
+                                    <p class="chat__mensaje">Solo bucaros</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora chat__hora--msg-reciente">Anteayer</p>
+                                    <span class="chat__contador">2</span>
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
+            
+                        <div class="chats__chat chat">
+                            <img src="imagenes/foto_chat-victor.jfif" alt="foto de perfil" class="chat__foto">
+                            <div class="chat__contenido">
+                                <div class="chat__informacion">
+                                    <p class="chat__titulo">Victor</p>
+                                    <p class="chat__mensaje">lk estoy bajando de peso</p>
+                                </div>
+            
+                                <div class="chat__informacion-extra">
+                                    <p class="chat__hora">13/08/2024</p>
+                                    <!-- <span class="chat__contador">1</span> -->
+                                </div>
+                                <!-- <hr> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <span class="estados__recientes">Recientes</span>
                 
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_chat-brayan.webp" alt="img estado" class="estado__foto estado__foto--reciente">
-                    <div class="estado__contenido">
-                        <span class="estado__titulo">Brayan</span>
-                        <span class="estado__texto">Justo ahora</span>
-                    </div>
-                </div>
-
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_chat-manuel.jfif" alt="img estado" class="estado__foto estado__foto--reciente">
-                    <div class="estado__contenido">
-                        <div class="estado__informacion">
-                            <span class="estado__titulo">Manuel</span>
-                        </div>
-                        <div class="estado__informacion-extra">
-                            <span class="estado__texto">Hace 1 hora</span>
+    
+                <div class="estados">
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_propia.jfif" alt="img estado" class="estado__foto">
+                        <span class="estado__agregar">+</span>
+                        <div class="estado__contenido">
+                            <span class="estado__titulo">Mi estado</span>
+                            <span class="estado__texto">Añadir a mis estados</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_chat-payaro.webp" alt="img estado" class="estado__foto estado__foto--reciente">
-                    <div class="estado__contenido">
-                        <div class="estado__informacion">
-                            <span class="estado__titulo">Pájaro</span>
-                        </div>
-                        <div class="estado__informacion-extra">
-                            <span class="estado__texto">Hace 4 horas</span>
+    
+                    <span class="estados__recientes">Recientes</span>
+                    
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_chat-brayan.webp" alt="img estado" class="estado__foto estado__foto--reciente">
+                        <div class="estado__contenido">
+                            <span class="estado__titulo">Brayan</span>
+                            <span class="estado__texto">Justo ahora</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_chat-yari.jpg" alt="img estado" class="estado__foto estado__foto--reciente">
-                    <div class="estado__contenido">
-                        <div class="estado__informacion">
-                            <span class="estado__titulo">Yari</span>
-                        </div>
-                        <div class="estado__informacion-extra">
-                            <span class="estado__texto">Hace 12 horas</span>
-                        </div>
-                    </div>
-                </div>
-
-                <span class="estados__vistos">Vistos</span>
-
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_chat-polopolo.webp" alt="img estado" class="estado__foto estado__foto--visto">
-                    <div class="estado__contenido">
-                        <div class="estado__informacion">
-                            <span class="estado__titulo">Polo Polo</span>
-                        </div>
-                        <div class="estado__informacion-extra">
-                            <span class="estado__texto">Hace 15 horas</span>
+    
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_chat-manuel.jfif" alt="img estado" class="estado__foto estado__foto--reciente">
+                        <div class="estado__contenido">
+                            <div class="estado__informacion">
+                                <span class="estado__titulo">Manuel</span>
+                            </div>
+                            <div class="estado__informacion-extra">
+                                <span class="estado__texto">Hace 1 hora</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_chat-rojelio.jfif" alt="img estado" class="estado__foto estado__foto--visto">
-                    <div class="estado__contenido">
-                        <div class="estado__informacion">
-                            <span class="estado__titulo">Rojelio</span>
-                        </div>
-                        <div class="estado__informacion-extra">
-                            <span class="estado__texto">Hace 20 horas</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_chat-yeyo.jfif" alt="img estado" class="estado__foto estado__foto--visto">
-                    <div class="estado__contenido">
-                        <div class="estado__informacion">
-                            <span class="estado__titulo">Jefferson</span>
-                        </div>
-                        <div class="estado__informacion-extra">
-                            <span class="estado__texto">Ayer</span>
+    
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_chat-payaro.webp" alt="img estado" class="estado__foto estado__foto--reciente">
+                        <div class="estado__contenido">
+                            <div class="estado__informacion">
+                                <span class="estado__titulo">Pájaro</span>
+                            </div>
+                            <div class="estado__informacion-extra">
+                                <span class="estado__texto">Hace 4 horas</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="estados__estado estado">
-                    <img src="imagenes/foto_chat-motomoto.jfif" alt="img estado" class="estado__foto estado__foto--visto">
-                    <div class="estado__contenido">
-                        <div class="estado__informacion">
-                            <span class="estado__titulo">Moto Moto</span>
-                        </div>
-                        <div class="estado__informacion-extra">
-                            <span class="estado__texto">Ayer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="llamadas">
-                <div class="llamada">
-                    <div class="llamada__icon">
-                        <span class="material-symbols-outlined">attach_file</span>
-                    </div>
-                    <div class="llamada__contenido">
-                        <div class="llamada__informacion">
-                            <p class="llamada__titulo">Crear enlace de llamada</p>
-                            <p class="llamada__texto">Comparte un enlace para tu llamada de whatsapp</p>
-                            <!-- <span class="llamada__texto">Hace 1 hora</span> -->
+    
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_chat-yari.jpg" alt="img estado" class="estado__foto estado__foto--reciente">
+                        <div class="estado__contenido">
+                            <div class="estado__informacion">
+                                <span class="estado__titulo">Yari</span>
+                            </div>
+                            <div class="estado__informacion-extra">
+                                <span class="estado__texto">Hace 12 horas</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <span class="llamadas__recientes">Recientes</span>
-
-                <div class="llamada">
-                    <img src="imagenes/foto_chat-motomoto.jfif" alt="img llamada" class="llamada__foto">
-                    <div class="llamada__contenido">
-                        <div class="llamada__informacion">
-                            <p class="llamada__titulo">Moto Moto</p>
-                            <!-- <span class="llamada__texto">Hace 1 hora</span> -->
-                            <p class="llamada__texto llamada__texto-recibida"> 08/15/2024, 8:00 p.m</p>
+    
+                    <span class="estados__vistos">Vistos</span>
+    
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_chat-polopolo.webp" alt="img estado" class="estado__foto estado__foto--visto">
+                        <div class="estado__contenido">
+                            <div class="estado__informacion">
+                                <span class="estado__titulo">Polo Polo</span>
+                            </div>
+                            <div class="estado__informacion-extra">
+                                <span class="estado__texto">Hace 15 horas</span>
+                            </div>
                         </div>
-                        <div class="llamada__icono-telefono">
-                            <span class="material-symbols-outlined">call</span>
+                    </div>
+    
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_chat-rojelio.jfif" alt="img estado" class="estado__foto estado__foto--visto">
+                        <div class="estado__contenido">
+                            <div class="estado__informacion">
+                                <span class="estado__titulo">Rojelio</span>
+                            </div>
+                            <div class="estado__informacion-extra">
+                                <span class="estado__texto">Hace 20 horas</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_chat-yeyo.jfif" alt="img estado" class="estado__foto estado__foto--visto">
+                        <div class="estado__contenido">
+                            <div class="estado__informacion">
+                                <span class="estado__titulo">Jefferson</span>
+                            </div>
+                            <div class="estado__informacion-extra">
+                                <span class="estado__texto">Ayer</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="estados__estado estado">
+                        <img src="imagenes/foto_chat-motomoto.jfif" alt="img estado" class="estado__foto estado__foto--visto">
+                        <div class="estado__contenido">
+                            <div class="estado__informacion">
+                                <span class="estado__titulo">Moto Moto</span>
+                            </div>
+                            <div class="estado__informacion-extra">
+                                <span class="estado__texto">Ayer</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="llamada">
-                    <img src="imagenes/foto_chat-yeyo.jfif" alt="img llamada" class="llamada__foto">
-                    <div class="llamada__contenido">
-                        <div class="llamada__informacion">
-                            <p class="llamada__titulo">Jefferson</p>
-                            <!-- <span class="llamada__texto">Hace 1 hora</span> -->
-                            <p class="llamada__texto llamada__texto-perdida">(3) 08/17/2024, 15:00 p.m</p>
+    
+                <div class="llamadas">
+                    <div class="llamada">
+                        <div class="llamada__icon">
+                            <span class="material-symbols-outlined">attach_file</span>
                         </div>
-                        <div class="llamada__icono-telefono">
-                            <span class="material-symbols-outlined">call</span>
+                        <div class="llamada__contenido">
+                            <div class="llamada__informacion">
+                                <p class="llamada__titulo">Crear enlace de llamada</p>
+                                <p class="llamada__texto">Comparte un enlace para tu llamada de whatsapp</p>
+                                <!-- <span class="llamada__texto">Hace 1 hora</span> -->
+                            </div>
+                        </div>
+                    </div>
+    
+                    <span class="llamadas__recientes">Recientes</span>
+    
+                    <div class="llamada">
+                        <img src="imagenes/foto_chat-motomoto.jfif" alt="img llamada" class="llamada__foto">
+                        <div class="llamada__contenido">
+                            <div class="llamada__informacion">
+                                <p class="llamada__titulo">Moto Moto</p>
+                                <!-- <span class="llamada__texto">Hace 1 hora</span> -->
+                                <p class="llamada__texto llamada__texto-recibida"> 08/15/2024, 8:00 p.m</p>
+                            </div>
+                            <div class="llamada__icono-telefono">
+                                <span class="material-symbols-outlined">call</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="llamada">
+                        <img src="imagenes/foto_chat-yeyo.jfif" alt="img llamada" class="llamada__foto">
+                        <div class="llamada__contenido">
+                            <div class="llamada__informacion">
+                                <p class="llamada__titulo">Jefferson</p>
+                                <!-- <span class="llamada__texto">Hace 1 hora</span> -->
+                                <p class="llamada__texto llamada__texto-perdida">(3) 08/17/2024, 15:00 p.m</p>
+                            </div>
+                            <div class="llamada__icono-telefono">
+                                <span class="material-symbols-outlined">call</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </main>
+        
     </div>
 </body>
 </html>
