@@ -1,7 +1,12 @@
 @import url(style_whatsapp.css);
+@import url(style_chats.css);
+@import url(style_estados.css);
+@import url(style_llamadas.css);
+@import url(style_globo.css);
+@import url(variables_globales.css);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
