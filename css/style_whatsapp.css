@@ -61,7 +61,7 @@ body {
     /* border: 1px solid; */
 }
 
-.menu__opcion:active, .menu__opcion:focus{
+.menu__opcion:focus{
     border-bottom: 5px solid #fff;
     color: #fff;
     /* transform: translate(10px); */
