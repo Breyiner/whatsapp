@@ -81,9 +81,9 @@ body {
 
 
 /*Cambio de opcion al dar click*/
-.interfaz__radio:checked:nth-child(1)~.menu .menu__opcion:nth-child(1), 
-.interfaz__radio:checked:nth-child(2)~.menu .menu__opcion:nth-child(2),
-.interfaz__radio:checked:nth-child(3)~.menu .menu__opcion:nth-child(3){
+#chats:checked~.menu .menu__opcion:nth-child(1), 
+#estados:checked~.menu .menu__opcion:nth-child(2),
+#llamadas:checked~.menu .menu__opcion:nth-child(3){
     border-bottom: 5px solid var(--blanco);
     opacity: 1;
 }
@@ -122,17 +122,17 @@ body {
 
 
 /*Transición*/
-input[id="chats"]:checked ~ .principal {
+#chats:checked ~ .principal {
     left: calc(450px * 0);
     transition: 0.2s;
 }
 
-input[id="estados"]:checked ~ .principal {
+#estados:checked ~ .principal {
     left: calc(450px * -1);
     transition: 0.2s;
 }
 
-input[id="llamadas"]:checked ~ .principal {
+#llamadas:checked ~ .principal {
     left: calc(450px * -2);
     transition: 0.2s;
 }
