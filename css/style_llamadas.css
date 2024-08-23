@@ -21,14 +21,14 @@
 }
 
 .llamada:hover {
-    background-color: #f5f5f5;
+    background-color: var(--hover-card);
 }
 
 .llamada__icon{
     min-width: 65px;
     height: 65px;
-    background-color: #0d574e;
-    color: #fff;
+    background-color: var(--color-primario);
+    color: var(--blanco);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +45,7 @@
     width: 100%;
     margin-left: 15px;
     line-height: 25px;
+    padding-top: 5px;
 }
 
 .llamada__titulo {
@@ -53,20 +54,20 @@
 }
 
 .llamada__texto {
-    color: #555;
+    color: var(--texto);
     font-size: 17px;
 }
 
 .llamada__texto-recibida::before{
     content: "↙";
-    color: #25d366;
+    color: var(--color-secundario);
     font-size: 20px;
     font-weight: bold;
 }
 
 .llamada__texto-perdida::before{
     content: "↙";
-    color: #d32525;
+    color: var(--color-llamada-perdida);
     font-size: 20px;
     font-weight: bold;
 }
@@ -74,7 +75,7 @@
 .llamadas__recientes {
     padding: 0 15px;
     font-weight: bold;
-    color: #555;
+    color: var(--texto);
     font-size: 14px;
 }
 
@@ -86,7 +87,7 @@
 }
 
 .llamada__icono-telefono {
-    color: #008069;
+    color: var(--color-primario);
     cursor: pointer;
     margin-right: 20px;
 }

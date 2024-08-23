@@ -1,0 +1,18 @@
+:root {
+    --blanco: #fff;
+    --negro: #000;
+    --color-borde-superior: #0a2e2a;
+    --color-primario: #0d574e;
+    --color-secundario: #25d366;
+    --color-terciario: #f2eaff;
+    --color-llamada-perdida: #d32525;
+    --hover-card: #f5f5f5;
+    --separador-chats: #c2c2c2;
+    --texto-chat: #646464;
+    --globo-lapiz: #ddd;
+    --icono-lapiz: #333;
+    --texto: #555;
+    --estado-reciente: #008069;
+    --estado-visto: #bbb;
+    --sombra-menu: #00000041;
+}

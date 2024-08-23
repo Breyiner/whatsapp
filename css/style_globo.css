@@ -3,7 +3,7 @@
     position: absolute;
     width: 65px;
     height: 65px;
-    background-color: #25d366;
+    background-color: var(--color-secundario);
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -11,13 +11,13 @@
     border-radius: 50%;
     right: 20px;
     top: 600px;
-    box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 3px var(--negro);
     cursor: pointer;
     z-index: 1;
     }
     
     .globo-flotante__icono {
-    color: #fff;
+    color: var(--blanco);
     }
     
     .globo-flotante--lapiz {
@@ -25,9 +25,9 @@
     height: 55px;
     right: 25px;
     top: 525px;
-    background-color: #ddd;
+    background-color: var(--globo-lapiz);
     }
     
     .globo-flotante__icono--lapiz {
-    color: #333;
+    color: var(--icono-lapiz);
     }

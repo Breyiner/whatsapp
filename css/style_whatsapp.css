@@ -1,5 +1,5 @@
 body {
-    background-color: #0d574e;
+    background-color: var(--color-primario);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -9,8 +9,8 @@ body {
     width: 450px;
     height: 850px;
     margin: 30px auto;
-    background-color: #f2eaff;
-    border: 5px solid #fff;
+    background-color: var(--color-terciario);
+    border: 5px solid var(--blanco);
     border-radius: 40px;
     overflow: hidden;
 }
@@ -19,18 +19,18 @@ body {
 /*Encabezado*/
 .header {
     width: 100%;
-    border-top: 20px solid #0a2e2a;
+    border-top: 20px solid var(--color-borde-superior);
     text-align: center;
 }
 
 .whatsapp {
     width: 100%;
     padding: 20px 10px;
-    background-color: #0d574e;
+    background-color: var(--color-primario);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
+    color: var(--blanco);
 }
 
 .whatsapp__titulo {
@@ -62,13 +62,13 @@ body {
 /*Barra opciones*/
 .menu {
     display: flex;
-    background-color: #0d574e;
-    box-shadow: 0px 2px 2px #00000041;
+    background-color: var(--color-primario);
+    box-shadow: 0px 2px 2px var(--sombra-menu);
 }
 
 .menu__opcion {
     width: 33.33%;
-    color: #fff;
+    color: var(--blanco);
     opacity: 0.75;
     text-align: center;
     padding: 15px 0;
@@ -84,7 +84,7 @@ body {
 .interfaz__radio:checked:nth-child(1)~.menu .menu__opcion:nth-child(1), 
 .interfaz__radio:checked:nth-child(2)~.menu .menu__opcion:nth-child(2),
 .interfaz__radio:checked:nth-child(3)~.menu .menu__opcion:nth-child(3){
-    border-bottom: 5px solid #fff;
+    border-bottom: 5px solid var(--blanco);
     opacity: 1;
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 .menu__contador--activo {
-    background-color: #fff;
+    background-color: var(--blanco);
 }
 
 .menu__contador--estados {
